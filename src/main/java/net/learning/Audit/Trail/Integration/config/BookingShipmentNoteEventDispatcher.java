@@ -1,11 +1,11 @@
 package net.learning.Audit.Trail.Integration.config;
 
-import net.apmoller.crb.telikos.libraries.audit.client.dispatcher.ShipmentNoteEventDispatcher;
+import net.apmoller.crb.telikos.libraries.audit.client.dispatcher.dispatchers.ShipmentNoteEventDispatcher;
 import net.apmoller.crb.telikos.libraries.audit.client.model.shipment.AuditData;
 import net.apmoller.crb.telikos.libraries.audit.client.model.shipment.ShipmentNote;
 import net.apmoller.crb.telikos.libraries.audit.client.model.shipment.ShipmentNotes;
-import net.apmoller.crb.telikos.libraries.audit.client.utils.HelperUtils;
 import net.learning.Audit.Trail.Integration.model.Booking;
+import net.learning.Audit.Trail.Integration.utils.HelperUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

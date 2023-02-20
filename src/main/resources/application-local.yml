@@ -1,0 +1,4 @@
+KAKFA_SHIPMENT_NOTE_TOPIC: shipment_Note_Topic
+KAKFA_AUDIT_TRAIL_TOPIC: audit_Trail_Topic
+BOOKING_SERVER: localhost:9092
+SCHEMA_URL: http://localhost:8081

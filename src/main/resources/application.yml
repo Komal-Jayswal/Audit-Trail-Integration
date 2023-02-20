@@ -1,0 +1,15 @@
+#Kafka Topic Name
+audit:
+  kafka:
+    topic:
+      shipmentNote: ${KAKFA_SHIPMENT_NOTE_TOPIC}
+      auditTrail: ${KAKFA_AUDIT_TRAIL_TOPIC}
+
+#kafka bootstrap server
+kafka:
+  client-id:
+  bootstrap-servers: ${BOOKING_SERVER}
+  schema-registry:
+    url: ${SCHEMA_URL}
+    username:
+    password:
