@@ -2,8 +2,8 @@
 audit:
   kafka:
     topic:
-      shipmentNote: ${KAKFA_SHIPMENT_NOTE_TOPIC}
-      auditTrail: ${KAKFA_AUDIT_TRAIL_TOPIC}
+      shipment-note: ${KAKFA_SHIPMENT_NOTE_TOPIC}
+      audit-trail: ${KAKFA_AUDIT_TRAIL_TOPIC}
 
 #kafka bootstrap server
 kafka:
